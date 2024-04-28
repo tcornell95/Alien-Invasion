@@ -1,6 +1,7 @@
 import pygame
 import os
 
+
 class Ship:
     """A class to manage the ship."""
 
@@ -21,7 +22,7 @@ class Ship:
         # Store a decimal value for the ship's horizontal position.
         self.x = float(self.rect.x)
 
-        #Movement flag
+        # Movement flag
         self.moving_right = False
         self.moving_left = False
 
